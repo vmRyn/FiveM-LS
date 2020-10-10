@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Lato');
+
+* {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--fadeTo-Color);
+    overflow: hidden;
+}
+
+.blur {
+    -webkit-filter: blur(var(--background-blur)) contrast(var(--background-contrast));
+    filter: blur(var(--background-blur)) contrast(var(--background-contrast));
+}
+
+.logo {
+    width: 320px;
+    width: 320px;
+}
+
+.yeet {
+    width: 5%;
+    background-color: var(--loadbar-progress-color);
+    height: var(--loadbar-height);
+    position: absolute;
+    left: 10%;
+}
+
+h1 {
+    color: white;
+}
+
+#rulesbox {
+    text-shadow: 2px 2px 5px #424242;
+    border: 5px solid #ffffff5b;
+    position: absolute;
+    background-color: #0000009f;
+    top: 47%;
+    left: 12.7%;
+    height: 800px;
+    width: 400px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#serverinfobox {
+    text-shadow: 2px 2px 5px #424242;
+    border: 5px solid #ffffff5b;
+    position: absolute;
+    background-color: #0000009f;
+    top: 47%;
+    left: 87.3%;
+    height: 800px;
+    width: 400px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#container {
+    text-shadow: 2px 2px 5px #424242;
+    position: absolute;
+    color: rgb(241, 235, 235);
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 75px;
+    text-align: center;
+}
+
+#containerservertitle {
+    text-shadow: 2px 2px 5px #424242;
+    position: absolute;
+    color: rgb(241, 235, 235);
+    top: 10.1%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 75px;
+    text-align: center;
+    border: 5px solid #ffffff5b;
+    background-color: #0000009f;
+    height: 100px;
+    width: 800px;
+}
+
+#servertext {
+    top: 10.1%;
+    left: 50%;
+    transform: translate(-0%,-115%);
+}
+
+#containersongname {
+    text-shadow: 2px 2px 5px #424242;
+    position: absolute;
+    color: rgb(241, 235, 235);
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    text-align: center;
+}
+
+#containerloading {
+    text-shadow: 2px 2px 5px #424242;
+    position: absolute;
+    color: rgb(241, 235, 235);
+    top: 92.8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 75px;
+    text-align: center;
+    width: 96.3%;
+    background-color: var(--loadbar-color);
+    height: var(--loadbar-height);
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.30), 0 6px 12px 0 rgba(0, 0, 0, 0.30);
+    margin-left: 2px;
+    margin-right: 3px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 4px solid #ffffff5b;
+}
+
+#containerloadingtext {
+    text-shadow: 2px 2px 5px #424242;
+    position: absolute;
+    color: rgb(241, 235, 235);
+    top: 93.89%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    text-align: center;
+}
+
+#bg { 
+  -webkit-background-size: cover;
+  background-size: cover;
+   }
+
+#discordlink {
+    color: var(--footer-font-color);
+    left: 0;
+    bottom: 0;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#websitelink {
+    color: var(--footer-font-color);
+    left: 0;
+    bottom: 0;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#ruletext {
+    color: var(--footer-font-color);
+    left: 0;
+    bottom: 0;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#rule1 {
+    color: var(--footer-font-color);
+    left: 0;
+    bottom: 0;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+
+#bottom_nav {
+    width: 90%;
+    vertical-align: text-bottom;
+    position: fixed;
+    bottom:0px;
+    text-align: center;
+    z-index:9999;
+}
