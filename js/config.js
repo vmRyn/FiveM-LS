@@ -4,7 +4,7 @@ var config = {
     "transitionInterval": 850,
     "imgInterval": 6000,
     "music": true,
-    "videoID": "ZyhrYis509A",
+    "videoID": "fbv5tDdxiD0",
     "musicVolume": 40,
     "text": {
         "servertitle": "SERVER TITLE",
