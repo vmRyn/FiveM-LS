@@ -16,6 +16,12 @@ body {
     filter: blur(var(--background-blur)) contrast(var(--background-contrast));
 }
 
+hr{
+    height: 5px;
+    background-color: #ffffff5b;
+    border: none;
+}
+
 .logo {
     width: 320px;
     width: 320px;
@@ -40,7 +46,7 @@ h1 {
     background-color: #0000009f;
     top: 47%;
     left: 12.7%;
-    height: 800px;
+    height: 772px;
     width: 400px;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -53,7 +59,7 @@ h1 {
     background-color: #0000009f;
     top: 47%;
     left: 87.3%;
-    height: 800px;
+    height: 772px;
     width: 400px;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -74,15 +80,11 @@ h1 {
     text-shadow: 2px 2px 5px #424242;
     position: absolute;
     color: rgb(241, 235, 235);
-    top: 10.1%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 75px;
-    text-align: center;
-    border: 5px solid #ffffff5b;
-    background-color: #0000009f;
-    height: 100px;
-    width: 800px;
+    text-align: center; 
 }
 
 #servertext {
