@@ -20,5 +20,5 @@ files {
     'images/bg6.png', 
     'images/bg7.png',
     'images/logo.png',
-    'images/voidrp.png'
+    'images/logorg.png'
 }
