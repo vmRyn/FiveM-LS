@@ -7,7 +7,7 @@ var config = {
     "videoID": "fbv5tDdxiD0",
     "musicVolume": 40,
     "text": {
-        "servertitle": "SERVER TITLE",
+        "servertitle": "REACTIVE GAMING",
         "discordlink": "Discord: https://discord.gg/xdqQsWA",
         "websitelink": "Website: https://www.byryn.xyz",
         "songname": "Playing Now: Artist - Song Name",
