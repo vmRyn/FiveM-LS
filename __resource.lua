@@ -20,5 +20,9 @@ files {
     'images/bg6.png', 
     'images/bg7.png',
     'images/logo.png',
-    'images/logorg.png'
+    'images/logorg.png',
+    'images/EL1.png',
+    'images/EL2.png',
+    'images/EL3.png',
+    'images/EL4.png'
 }
