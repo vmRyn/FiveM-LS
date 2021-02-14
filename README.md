@@ -10,4 +10,4 @@
 
 * Easy to use Config.js for Text/Music Etc & Config.css for Colouring/Theme.
 ![Config JS](https://i.imgur.com/liTzJQH.png)
-![Config CSS](https://i.imgur.com/TCta7fT.png)
+![Config CSS](https://i.imgur.com/lGj8vaV.png)
