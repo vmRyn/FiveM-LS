@@ -22,5 +22,14 @@ var config = {
         "leftboxtitle": "SERVER INFO",
         "rightboxtitle": "RULES"
     },
-    "images": ['bg0.png', 'bg1.png', 'bg2.png', 'bg3.png', 'bg4.png', 'bg5.png', 'bg6.png', 'bg7.png']
+    "images": [
+        'bg0.png',
+        'bg1.png',
+        'bg2.png',
+        'bg3.png',
+        'bg4.png',
+        'bg5.png',
+        'bg6.png',
+        'bg7.png'
+    ]
 }
