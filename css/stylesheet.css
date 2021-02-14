@@ -1,3 +1,7 @@
+/***************************
+    BODY START
+***************************/
+
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Lato');
 * {
     font-family: 'Lato', sans-serif;
@@ -17,7 +21,7 @@ body {
 }
 
 hr {
-    height: 5px;
+    height: 6px;
     background-color: #fec92b;
     border: none;
 }
@@ -27,7 +31,7 @@ hr {
     width: 320px;
 }
 
-.yeet {
+.Rynxd {
     width: 5%;
     background-color: var(--loadbar-progress-color);
     height: var(--loadbar-height);
@@ -35,16 +39,52 @@ hr {
     left: 10%;
 }
 
-h1 {
-    color: white;
+#bg {
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
+
+/***************************
+    BODY END
+***************************/
+
+
+/***************************
+    FONT/TEXT START
+***************************/
+
+h1 {
+    color: white;
+    font-family: Poppins;
+    font-weight: lighter;
+}
+
+h5 {
+    font-family: Poppins;
+    font-weight: lighter;
+}
+
+p {
+    font-family: Poppins;
+}
+
+
+/***************************
+    FONT/TEXT END
+***************************/
+
+
+/***************************
+    CONTAINERS/BOX START
+***************************/
+
 #rulesbox {
-    text-shadow: 2px 2px 5px #111111;
-    border: 5px solid #fec92b;
+    text-shadow: 2px 2px 5px var(--fadeTo-Color);
+    border: 5px solid var(--loadbar-progress-color);
     border-radius: 25px;
     position: absolute;
-    background-color: #111111;
+    background-color: var(--fadeTo-Color);
     top: 47%;
     left: 12.7%;
     height: 507px;
@@ -54,11 +94,11 @@ h1 {
 }
 
 #serverinfobox {
-    text-shadow: 2px 2px 5px #111111;
+    text-shadow: 2px 2px 5px var(--fadeTo-Color);
     border: 5px solid #fec92b;
     border-radius: 25px;
     position: absolute;
-    background-color: #111111;
+    background-color: var(--fadeTo-Color);
     top: 47%;
     left: 87.3%;
     height: 507px;
@@ -68,7 +108,7 @@ h1 {
 }
 
 #container {
-    text-shadow: 2px 2px 5px #111111;
+    text-shadow: 2px 2px 5px var(--fadeTo-Color);
     position: absolute;
     color: rgb(241, 235, 235);
     top: 47%;
@@ -79,7 +119,7 @@ h1 {
 }
 
 #containerservertitle {
-    text-shadow: 2px 2px 5px #111111;
+    text-shadow: 2px 2px 5px var(--fadeTo-Color);
     position: absolute;
     color: rgb(241, 235, 235);
     top: 15%;
@@ -96,10 +136,10 @@ h1 {
 }
 
 #containersongname {
-    text-shadow: 2px 2px 5px #111111;
+    text-shadow: 2px 2px 5px var(--fadeTo-Color);
     position: absolute;
     color: rgb(241, 235, 235);
-    top: 85%;
+    top: 83%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 25px;
@@ -107,7 +147,7 @@ h1 {
 }
 
 #containerloading {
-    text-shadow: 2px 2px 5px #111111;
+    text-shadow: 2px 2px 5px var(--fadeTo-Color);
     position: absolute;
     color: rgb(241, 235, 235);
     top: 92.8%;
@@ -128,7 +168,7 @@ h1 {
 }
 
 #containerloadingtext {
-    text-shadow: 2px 2px 5px #111111;
+    text-shadow: 2px 2px 5px var(--fadeTo-Color);
     position: absolute;
     color: rgb(241, 235, 235);
     top: 93.89%;
@@ -136,11 +176,6 @@ h1 {
     transform: translate(-50%, -50%);
     font-size: 25px;
     text-align: center;
-}
-
-#bg {
-    -webkit-background-size: cover;
-    background-size: cover;
 }
 
 #discordlink {
@@ -187,3 +222,8 @@ h1 {
     text-align: center;
     z-index: 9999;
 }
+
+
+/***************************
+    CONTAINERS/BOX END
+***************************/

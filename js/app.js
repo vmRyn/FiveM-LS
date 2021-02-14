@@ -1,5 +1,6 @@
-// <!-- © www.byryn.xyz | Ryn#2512 | Need Help Message me on Discord or join my discord - https://discord.gg/xdqQsWA -->
+// <!-- © Ryn#2512 | Need Help Message me on Discord -->
 
+//Element & ID Declaration
 document.getElementById('discordlink').innerHTML = config.text.discordlink;
 document.getElementById('websitelink').innerHTML = config.text.websitelink;
 document.getElementById('servertitle').innerHTML = config.text.servertitle;
@@ -12,7 +13,9 @@ document.getElementById('rule4').innerHTML = config.text.rule4;
 document.getElementById('rule5').innerHTML = config.text.rule5;
 document.getElementById('rule6').innerHTML = config.text.rule6;
 document.getElementById('rule7').innerHTML = config.text.rule7;
-document.getElementById('rule8').innerHTML = config.text.rule8;
+document.getElementById('leftboxtitle').innerHTML = config.text.leftboxtitle;
+document.getElementById('rightboxtitle').innerHTML = config.text.rightboxtitle;
+document.getElementById('mymiddleimage').innerHTML = config.text.mymiddleimage;
 
 var audio = `<div data-video=${config.videoID} data-autoplay="1" data-loop="1" id="youtube-audio"> </div>`;
 if (config.music === true) {
@@ -44,7 +47,7 @@ $(function() {
     }, 2 * config.transitionInterval + config.imgInterval);
 })
 
-// forked from https://cdn.rawgit.com/labnol/files/master/yt.js
+// Taken/Forked From https://cdn.rawgit.com/labnol/files/master/yt.js
 function onYouTubeIframeAPIReady() {
     var e = document.getElementById("youtube-audio"),
         t = document.createElement(null);
@@ -70,7 +73,6 @@ function onYouTubeIframeAPIReady() {
     })
 }
 
-// From cfx-keks
 var count = 0;
 var thisCount = 0;
 
@@ -83,8 +85,8 @@ const handlers = {
     },
 
     initFunctionInvoking(data) {
-        document.querySelector('.yeet').style.left = '0%';
-        document.querySelector('.yeet').style.width = ((data.idx / count) * 100) + '%';
+        document.querySelector('.Rynxd').style.left = '0%';
+        document.querySelector('.Rynxd').style.width = ((data.idx / count) * 100) + '%';
     },
 
     startDataFileEntries(data) {
@@ -96,8 +98,8 @@ const handlers = {
     performMapLoadFunction(data) {
         ++thisCount;
 
-        document.querySelector('.yeet').style.left = '0%';
-        document.querySelector('.yeet').style.width = ((thisCount / count) * 100) + '%';
+        document.querySelector('.Rynxd').style.left = '0%';
+        document.querySelector('.Rynxd').style.width = ((thisCount / count) * 100) + '%';
     },
 
     onLogLine(data) {

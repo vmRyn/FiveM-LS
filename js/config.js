@@ -1,16 +1,16 @@
-// <!-- © www.byryn.xyz | Ryn#2512 | Need Help Message me on Discord or join my discord - https://discord.gg/xdqQsWA -->
+// <!-- © Ryn#2512 | Need Help Message me on Discord -->
 
 var config = {
     "transitionInterval": 850,
     "imgInterval": 6000,
     "music": true,
-    "videoID": "0WSF9dmea4s",
+    "videoID": "xh40QxwZz7Q",
     "musicVolume": 15,
     "text": {
-        "servertitle": "",
-        "discordlink": "WWW.DISCORD.GG/ECLIPSE-LIFE",
-        "websitelink": "WWW.ECLIPSE-LIFE.COM",
-        "songname": "Playing Now: DMY, RedBird, Nettson - Loading Screen",
+        "servertitle": "SERVER TITLE",
+        "discordlink": "WWW.DISCORD.GG/DC-LINK",
+        "websitelink": "WWW.WEBSITE-LINK.COM",
+        "songname": "Grand Theft Auto IV - Theme Song",
         "loadingtext": "",
         "rule1": "RULE 1",
         "rule2": "RULE 2",
@@ -19,7 +19,8 @@ var config = {
         "rule5": "RULE 5",
         "rule6": "RULE 6",
         "rule7": "RULE 7",
-        "rule8": "RULE 8",
+        "leftboxtitle": "SERVER INFO",
+        "rightboxtitle": "RULES"
     },
     "images": ['bg0.png', 'bg1.png', 'bg2.png', 'bg3.png', 'bg4.png', 'bg5.png', 'bg6.png', 'bg7.png']
 }
