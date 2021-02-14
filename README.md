@@ -8,7 +8,8 @@
 
 ![Image of Loading Screen](https://i.imgur.com/pXcRIVS.png)
 
-* Easy to use Config.js for Text/Music Etc & Config.css for Colouring/Theme.
+* Easy to use Config.css for Colouring/Theme.
+* Easy to use Config.js for Text/Music
 
 
 ![Configs](https://i.imgur.com/8uNQVav.png)
