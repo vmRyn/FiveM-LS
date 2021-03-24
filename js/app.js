@@ -17,10 +17,10 @@ document.getElementById('leftboxtitle').innerHTML = config.text.leftboxtitle;
 document.getElementById('rightboxtitle').innerHTML = config.text.rightboxtitle;
 document.getElementById('mymiddleimage').innerHTML = config.text.mymiddleimage;
 
-var audio = `<div data-video=${config.videoID} data-autoplay="1" data-loop="1" id="youtube-audio"> </div>`;
-if (config.music === true) {
-    $("body").append(audio);
-}
+    var audio = `<div data-video=${config.videoID} data-autoplay="1" data-loop="1" id="youtube-audio"> </div>`;
+    if (config.music === true) {
+        $("body").append(audio);
+    }
 
 $(function() {
 
@@ -80,8 +80,6 @@ var thisCount = 0;
 const handlers = {
     startInitFunctionOrder(data) {
         count = data.count;
-
-        document.querySelector('.letni h3').innerHTML += [data.type][data.order - 1] || '';
     },
 
     initFunctionInvoking(data) {
@@ -91,22 +89,15 @@ const handlers = {
 
     startDataFileEntries(data) {
         count = data.count;
-
-        document.querySelector('.letni h3').innerHTML += "\u{1f358}";
     },
 
     performMapLoadFunction(data) {
         ++thisCount;
-
         document.querySelector('.Rynxd').style.left = '0%';
         document.querySelector('.Rynxd').style.width = ((thisCount / count) * 100) + '%';
     },
-
-    onLogLine(data) {
-        document.querySelector('.letni p').innerHTML = data.message + "..!";
-    }
 };
 
-window.addEventListener('message', function(e) {
-    (handlers[e.data.eventName] || function() {})(e.data);
+window.addEventListener('message', function (e) {
+    (handlers[e.data.eventName] || function () { })(e.data);
 });
