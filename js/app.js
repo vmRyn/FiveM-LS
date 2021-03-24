@@ -24,7 +24,7 @@ document.getElementById('mymiddleimage').innerHTML = config.text.mymiddleimage;
 
 $(function() {
 
-    var llllll = config.images.forEach(appen)
+    var bgImages = images.forEach(appen)
 
     function appen(i) {
         document.getElementById("bg").innerHTML = document.getElementById("bg").innerHTML + `<img width="100%"height="100%" src=images/${i}>`;
@@ -34,17 +34,17 @@ $(function() {
         return Math.floor(Math.random() * pp);
     }
     var img = $('div#bg img');
-    var len = img.length;
-    var current = random(len);
+    var imgLength = img.length;
+    var current = random(imgLength);
     img.hide();
     img.eq(current).show();
 
     var x = setInterval(function() {
-        img.eq(current).fadeOut(config.transitionInterval, function() {
-            current = random(len);
-            img.eq(current).fadeIn(config.transitionInterval);
+        img.eq(current).fadeOut(images.transitionInterval, function() {
+            current = random(imgLength);
+            img.eq(current).fadeIn(images.transitionInterval);
         });
-    }, 2 * config.transitionInterval + config.imgInterval);
+    }, 2 * images.transitionInterval + images.imgInterval);
 })
 
 // Taken/Forked From https://cdn.rawgit.com/labnol/files/master/yt.js

@@ -1,8 +1,6 @@
 // <!-- © Ryn#2512 | Need Help Message me on Discord -->
 
 var config = {
-    "transitionInterval": 850,
-    "imgInterval": 6000,
     "music": true,
     "videoID": "xh40QxwZz7Q",
     "musicVolume": 15,
@@ -21,6 +19,11 @@ var config = {
         "rule7": "RULE 7",
         "leftboxtitle": "SERVER INFO",
         "rightboxtitle": "RULES"
-    },
-    "images": ['bg0.png', 'bg1.png', 'bg2.png', 'bg3.png', 'bg4.png', 'bg5.png', 'bg6.png', 'bg7.png']
+    }
+}
+
+var images = {
+    "images": ['bg0.png', 'bg1.png', 'bg2.png', 'bg3.png', 'bg4.png', 'bg5.png', 'bg6.png', 'bg7.png'],
+    "transitionInterval": 850,
+    "imgInterval": 6000
 }
