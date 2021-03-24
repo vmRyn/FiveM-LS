@@ -5,6 +5,7 @@ var config = {
     "videoID": "xh40QxwZz7Q",
     "musicVolume": 15,
     "text": {
+        "mainlogo": "./images/logo.png",
         "servertitle": "SERVER TITLE",
         "discordlink": "WWW.DISCORD.GG/DC-LINK",
         "websitelink": "WWW.WEBSITE-LINK.COM",

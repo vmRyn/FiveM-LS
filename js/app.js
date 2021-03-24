@@ -1,6 +1,7 @@
 // <!-- © Ryn#2512 | Need Help Message me on Discord -->
 
 //Element & ID Declaration
+document.getElementById('mainlogo').src = config.text.mainlogo;
 document.getElementById('discordlink').innerHTML = config.text.discordlink;
 document.getElementById('websitelink').innerHTML = config.text.websitelink;
 document.getElementById('servertitle').innerHTML = config.text.servertitle;
