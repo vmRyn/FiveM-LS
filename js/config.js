@@ -1,9 +1,6 @@
 // <!-- © Ryn#2512 | Need Help Message me on Discord -->
 
 var config = {
-    "music": true,
-    "videoID": "xh40QxwZz7Q",
-    "musicVolume": 15,
     "text": {
         "mainlogo": "./images/logo.png",
         "servertitle": "SERVER TITLE",
@@ -21,6 +18,12 @@ var config = {
         "leftboxtitle": "SERVER INFO",
         "rightboxtitle": "RULES"
     }
+}
+
+var music = {
+    "music": true,
+    "videoID": "xh40QxwZz7Q",
+    "musicVolume": 15
 }
 
 var images = {

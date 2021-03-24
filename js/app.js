@@ -18,8 +18,8 @@ document.getElementById('leftboxtitle').innerHTML = config.text.leftboxtitle;
 document.getElementById('rightboxtitle').innerHTML = config.text.rightboxtitle;
 document.getElementById('mymiddleimage').innerHTML = config.text.mymiddleimage;
 
-    var audio = `<div data-video=${config.videoID} data-autoplay="1" data-loop="1" id="youtube-audio"> </div>`;
-    if (config.music === true) {
+    var audio = `<div data-video=${music.videoID} data-autoplay="1" data-loop="1" id="youtube-audio"> </div>`;
+    if (music.music === true) {
         $("body").append(audio);
     }
 
@@ -66,7 +66,7 @@ function onYouTubeIframeAPIReady() {
         playerVars: { autoplay: e.dataset.autoplay, loop: e.dataset.loop },
         events: {
             onReady: function(e) {
-                r.setPlaybackQuality("small"), r.setVolume(config.musicVolume)
+                r.setPlaybackQuality("small"), r.setVolume(music.musicVolume)
                 o(r.getPlayerState() !== YT.PlayerState.CUED)
             },
             onStateChange: function(e) { e.data === YT.PlayerState.ENDED && o(!1) }
