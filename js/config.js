@@ -27,7 +27,16 @@ var music = {
 }
 
 var images = {
-    "images": ['bg0.png', 'bg1.png', 'bg2.png', 'bg3.png', 'bg4.png', 'bg5.png', 'bg6.png', 'bg7.png'],
     "transitionInterval": 850,
-    "imgInterval": 6000
+    "imgInterval": 6000,
+    "images": [
+        'bg0.png', 
+        'bg1.png', 
+        'bg2.png', 
+        'bg3.png', 
+        'bg4.png', 
+        'bg5.png', 
+        'bg6.png', 
+        'bg7.png'
+    ]
 }
