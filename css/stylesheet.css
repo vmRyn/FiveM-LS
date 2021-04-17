@@ -18,28 +18,27 @@ body {
     background-attachment: fixed;
     background-position: center;
     backface-visibility: hidden;
-    animation: bgSlide 10s linear;
-    animation-timing-function: linear 2s;
+    animation: bgSlide 10s linear infinite;
+    animation-timing-function: 2s linear;
     background-color: var(--fadeTo-Color);
     background-image: var(--ImageOne);
 }
 
 @keyframes bgSlide {
+    0% {
+        background-image: var(--ImageOne);
+    }
     25% {
         background-image: var(--ImageTwo);
-        background-color: var(--fadeTo-Color);
     }
     50% {
         background-image: var(--ImageThree);
-        background-color: var(--fadeTo-Color);
     }
     75% {
         background-image: var(--ImageFour);
-        background-color: var(--fadeTo-Color);
     }
     100% {
         background-image: var(--ImageFive);
-        background-color: var(--fadeTo-Color);
     }
 }
 
@@ -65,11 +64,6 @@ hr {
     height: var(--loadbar-height);
     position: absolute;
     left: 10%;
-}
-
-#bg {
-    -webkit-background-size: cover;
-    background-size: cover;
 }
 
 
