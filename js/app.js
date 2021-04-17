@@ -18,35 +18,10 @@ document.getElementById('leftboxtitle').innerHTML = config.text.leftboxtitle;
 document.getElementById('rightboxtitle').innerHTML = config.text.rightboxtitle;
 document.getElementById('mymiddleimage').innerHTML = config.text.mymiddleimage;
 
-    var audio = `<div data-video=${music.videoID} data-autoplay="1" data-loop="1" id="youtube-audio"> </div>`;
-    if (music.music === true) {
-        $("body").append(audio);
-    }
-
-$(function() {
-
-    var bgImages = images.forEach(appen)
-
-    function appen(i) {
-        document.getElementById("bg").innerHTML = document.getElementById("bg").innerHTML + `<img width="100%"height="100%" src=images/${i}>`;
-    }
-
-    function random(pp) {
-        return Math.floor(Math.random() * pp);
-    }
-    var img = $('div#bg img');
-    var imgLength = img.length;
-    var current = random(imgLength);
-    img.hide();
-    img.eq(current).show();
-
-    var x = setInterval(function() {
-        img.eq(current).fadeOut(images.transitionInterval, function() {
-            current = random(imgLength);
-            img.eq(current).fadeIn(images.transitionInterval);
-        });
-    }, 2 * images.transitionInterval + images.imgInterval);
-})
+var audio = `<div data-video=${music.videoID} data-autoplay="1" data-loop="1" id="youtube-audio"> </div>`;
+if (music.music === true) {
+    $("body").append(audio);
+}
 
 // Taken/Forked From https://cdn.rawgit.com/labnol/files/master/yt.js
 function onYouTubeIframeAPIReady() {
@@ -99,6 +74,6 @@ const handlers = {
     },
 };
 
-window.addEventListener('message', function (e) {
-    (handlers[e.data.eventName] || function () { })(e.data);
+window.addEventListener('message', function(e) {
+    (handlers[e.data.eventName] || function() {})(e.data);
 });

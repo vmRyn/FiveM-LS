@@ -19,6 +19,7 @@ files {
     'images/bg5.png', 
     'images/bg6.png', 
     'images/bg7.png',
+    'images/bg8.png',
     'images/logo.png',
     'images/EL1.png',
     'images/EL2.png',

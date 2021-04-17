@@ -9,15 +9,38 @@
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
-    background-color: var(--fadeTo-Color);
-    background-image: url(../images/bg5.png);
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
-    overflow: hidden;
+    backface-visibility: hidden;
+    animation: bgSlide 10s linear;
+    animation-timing-function: linear 2s;
+    background-color: var(--fadeTo-Color);
+    background-image: var(--ImageOne);
+}
+
+@keyframes bgSlide {
+    25% {
+        background-image: var(--ImageTwo);
+        background-color: var(--fadeTo-Color);
+    }
+    50% {
+        background-image: var(--ImageThree);
+        background-color: var(--fadeTo-Color);
+    }
+    75% {
+        background-image: var(--ImageFour);
+        background-color: var(--fadeTo-Color);
+    }
+    100% {
+        background-image: var(--ImageFive);
+        background-color: var(--fadeTo-Color);
+    }
 }
 
 .blur {
@@ -27,7 +50,7 @@ body {
 
 hr {
     height: 6px;
-    background-color: #fec92b;
+    background-color: var(--loadbar-progress-color);
     border: none;
 }
 
@@ -100,7 +123,7 @@ p {
 
 #serverinfobox {
     text-shadow: 2px 2px 5px var(--fadeTo-Color);
-    border: 5px solid #fec92b;
+    border: 5px solid var(--loadbar-progress-color);
     border-radius: 25px;
     position: absolute;
     background-color: var(--fadeTo-Color);
@@ -168,7 +191,7 @@ p {
     margin-right: 3px;
     margin-top: 10px;
     margin-bottom: 5px;
-    border: 4px solid #fec92b;
+    border: 4px solid var(--loadbar-progress-color);
     border-radius: 25px;
 }
 

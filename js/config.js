@@ -25,18 +25,3 @@ var music = {
     "videoID": "xh40QxwZz7Q",
     "musicVolume": 15
 }
-
-var images = {
-    "transitionInterval": 850,
-    "imgInterval": 6000,
-    "images": [
-        'bg0.png', 
-        'bg1.png', 
-        'bg2.png', 
-        'bg3.png', 
-        'bg4.png', 
-        'bg5.png', 
-        'bg6.png', 
-        'bg7.png'
-    ]
-}
