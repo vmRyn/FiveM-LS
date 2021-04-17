@@ -7,22 +7,15 @@ loadscreen 'index.html'
 files {
     'index.html',
     'css/stylesheet.css',
+    'css/config.css',
     'js/config.js',
     'js/app.js',
-    'css/config.css',
-    'images/B1.png',
-    'images/bg0.png', 
+    'js/fullscreen-video.js',
+    'js/snowflake-effect.js',
     'images/bg1.png', 
     'images/bg2.png', 
     'images/bg3.png', 
     'images/bg4.png', 
     'images/bg5.png', 
-    'images/bg6.png', 
-    'images/bg7.png',
-    'images/bg8.png',
-    'images/logo.png',
-    'images/EL1.png',
-    'images/EL2.png',
-    'images/EL3.png',
-    'images/EL4.png'
+    'images/logo.png'
 }
